@@ -96,14 +96,6 @@ public class Usuario {
 		this.foto = foto;
 	}
 
-	public List<Postagem> getProduto() {
-		return postagem;
-	}
-
-	public void setProduto(List<Postagem> postagem) {
-		this.postagem = postagem;
-	}
-
 	public List<Postagem> getPostagem() {
 		return postagem;
 	}
@@ -111,5 +103,7 @@ public class Usuario {
 	public void setPostagem(List<Postagem> postagem) {
 		this.postagem = postagem;
 	}
+
+
 
 }
